@@ -32,13 +32,13 @@ Android Wi-Fi DirectのAPIを個別に実行し、Wi-Fi Directの動きを見る
 
 * 前回実行時の設定状態をPrefへ保存し、次回実行時にリストア
 * ログ関連
-** ログ出力をクラス化
-** ログをSDカードへ保存
-** ログ文字サイズ変更
+ - ログ出力をクラス化
+ - ログをSDカードへ保存
+ - ログ文字サイズ変更
 * WFD正規表現修正
 * ブロードキャストレシーバのコードリファイン
 * startActivity()をstartPreferencePanel()へ変更（Wi-Fi Directの画面を表示）
 * Wi-Fi Direct
-** WPS PIN UI追加
-** サービス検出 API追加
-** DNS API追加
+ - WPS PIN UI追加
+ - サービス検出 API追加
+ - DNS API追加
