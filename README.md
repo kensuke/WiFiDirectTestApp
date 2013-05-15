@@ -18,20 +18,12 @@ Android Wi-Fi DirectのAPIを個別に実行し、Wi-Fi Directの動きを見る
 ##### WifiP2pManager
 
 * 初期化 initialize
-
-
 * 発見　discoverPeers
 * 発見結果取得　requestPeers
-
-
 * 接続　connect
 * 接続キャンセル　cancelConnect
-
-
 * グループ生成　createGroup
 * グループ削除・切断　removeGroup
-
-
 * 接続情報取得　requestConnectionInfo
 * グループ情報取得　requestGroupInfo
 
@@ -39,11 +31,14 @@ Android Wi-Fi DirectのAPIを個別に実行し、Wi-Fi Directの動きを見る
 #### やりたい
 
 * 前回実行時の設定状態をPrefへ保存し、次回実行時にリストア
-* ログ出力をクラス化
-* ログをSDカードへ保存
-* ログ文字サイズ変更
+* ログ関連
+** ログ出力をクラス化
+** ログをSDカードへ保存
+** ログ文字サイズ変更
 * WFD正規表現修正
 * ブロードキャストレシーバのコードリファイン
 * startActivity()をstartPreferencePanel()へ変更（Wi-Fi Directの画面を表示）
-* サービス検出 API追加
-* DNS API追加
+* Wi-Fi Direct
+** WPS PIN UI追加
+** サービス検出 API追加
+** DNS API追加
