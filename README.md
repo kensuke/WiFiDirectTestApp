@@ -42,3 +42,8 @@ Android Wi-Fi DirectのAPIを個別に実行し、Wi-Fi Directの動きを見る
  - WPS PIN UI追加
  - サービス検出 API追加
  - DNS API追加
+
+----
+
+#### ライセンス
+NYSL
